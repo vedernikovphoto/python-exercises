@@ -1,0 +1,7 @@
+# Write a Python program to convert a list of multiple integers into a single integer.
+
+a = [2,3,4,5,7]
+s =''
+for i in range(len(a)):
+    s += str(a[i]) 
+print(s)
