@@ -1,0 +1,15 @@
+# Write a Python program to find the second smallest number in a list.
+
+a = [2]
+if len(a) <= 1:
+    print(' None ')
+elif len(a) == 2 and a[0] == a[1]:
+    print(' None ')
+else: 
+    b = sorted(a)
+    while True:
+        if b[0] == b[1]:
+            b.pop(0)
+        else:
+            print(b[1])
+            break
