@@ -1,0 +1,6 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(1,5,40)
+y = np.linspace(1,10,40)
+plt.plot(x,y, 'o')
