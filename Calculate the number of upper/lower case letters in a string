@@ -1,0 +1,13 @@
+def string_test(s):
+    upper = 0
+    lower = 0
+    for i in s:
+        if i.isupper():
+            upper += 1
+        if i.islower():
+            lower += 1
+    print('Original string is: ' + s)
+    print('Number of upper case characters is: ' + str(upper))
+    print('Number of lower case characters is: ' + str(lower))
+
+string_test('The quick Brown Fox')
